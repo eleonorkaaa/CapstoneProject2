@@ -1,0 +1,142 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size:3rem;
+    margin-bottom: 0;
+    color:#EF0313;
+}
+p{
+    text-align: justify;
+}
+.flex-container-hero{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #F6EEDF;
+    height:100vh;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.hero-img{
+    position:absolute;
+    width:500px;
+    margin-left:1000px;
+    margin-top:200px;
+}
+.me-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:0px;
+    padding-left:380px;
+    padding-right:397px;
+}
+.me-photo{
+    width:200px;
+    border-radius: 50%;
+    margin-top:50px;
+}
+.yellow-text{
+    font-family: 'Luckiest Guy', cursive;
+    color:#FFDB18;
+    font-size:2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.my-skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #F6EEDF;
+    flex-direction:column;
+    justify-content: center;
+    margin-top:40px;
+    padding:40px 397px 50px 380px;
+}
+.yellow-splash{
+    float:left;
+    width:150px;
+    margin-right:40px;
+    padding-top:10px;
+}
+.red-text{
+    color:#EF0313;
+    font-family: 'Luckiest Guy', cursive;
+}
+.my-skills-container>div, .my-work-container>div{
+    margin-bottom:30px;
+}
+.p-center{
+    text-align: center;
+}
+.my-work-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content: center;
+    padding:0px 387px 0px 380px;
+    margin-top:40px;
+}
+.yeloww-text{
+    color:#FFDB18;
+    font-family: 'Luckiest Guy', cursive;
+}
+.redd-text{
+    font-family: 'Luckiest Guy', cursive;
+    color:#EF0313;
+    font-size:2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contacts-container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: #F6EEDF;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    padding:40px 397px 50px 380px;
+    margin-top:40px;
+}
+button{
+    background-color:#FFDB18;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    align-self: center;
+    border-radius: 20px;
+    margin-top:20px;
+    box-shadow: 0px 10px 20px 2px black;
+}
+button:hover{
+    background-color:white;
+    cursor: pointer;
+}
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    padding:0px 300px 0px 300px;
+}
+@media (max-width: 800px) {
+    .flex-container-hero,.me-container,.my-skills-container,.my-work-container {
+      padding:20px;
+    }
+    .hero-img{
+        display:none;
+    }
+    .contacts-container{
+        padding:20px 20px 50px 20px;
+    }
+    h1{
+        text-align: center;
+    }
+  }
